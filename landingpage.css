@@ -1,0 +1,133 @@
+/* General reset and styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(112, 185, 216);
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    background-color:whitesmoke;
+    color:black;
+}
+
+.home-section {
+    color: rgb(135, 135, 222);
+    text-align: center;
+    padding: 100px 0;
+}
+
+.home-section .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.booking-form label {
+    margin-top: 10px;
+}
+
+.booking-form input {
+    margin-top: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.booking-form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+.booking-form button:hover {
+    background-color: #555;
+}
+
+.about-section, .rooms-section, .contact-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.rooms-section .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.rooms-section .room {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.rooms-section .room img {
+    width: 100%;
+    height: auto; 
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
